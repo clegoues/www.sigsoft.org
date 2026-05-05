@@ -2,6 +2,7 @@ AddType text/html .html
 AddHandler server-parsed .html 
 Options FollowSymLinks Includes
 
+RedirectMatch 301 /awards.html https://www2.sigsoft.org/awards/sigsoftawards/
 RedirectMatch 301 /awards/distinguishedServiceAward.html https://www2.sigsoft.org/awards/distinguishedservice/
 RedirectMatch 301 /awards/outstandingResearchAward.html https://www2.sigsoft.org/awards/outstandingresearch/
 RedirectMatch 301 /awards/influentialEducatorAward.html https://www2.sigsoft.org/awards/influentialeducator/
